@@ -1,0 +1,210 @@
+html, body { /*Sticky Footer 1/2*/
+  height: 100%;
+  margin: 0;
+}
+
+table {
+    width: 100%;
+	font-family: 'Oswald', sans-serif;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#f5f5f5}
+
+
+.topo{
+  background-color: #dd4f43;
+  width: 100%;
+}
+
+.título{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 28px;
+  color: #dd4f43;
+  font-size: 48px;
+}
+
+.Calculadora{
+  font-family: 'Wendy One', sans-serif;
+}
+
+.formulario{
+  max-width: 715px;
+  margin: 0 auto;
+}
+
+.colapsado p{
+  margin-top: 50px;
+}
+
+.btn{ /*Bootstrap Overwrite*/
+  border-radius: 0;
+}
+
+.btn-primary{ /*Bootstrap Overwrite*/
+  border-color: #dd4f43;
+}
+
+.btn-primary:hover { /*Bootstrap Overwrite*/
+  color: #fff;
+  background-color: #189f5c;
+  border-color: #189f5c;
+}
+
+.btn-primary.focus, .btn-primary:focus { /*Bootstrap Overwrite*/
+  box-shadow: none;
+}
+
+.btn.focus, .btn:focus { /*Bootstrap Overwrite*/
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control { /*Bootstrap Overwrite*/
+	display: inline;
+    width: 45%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    vertical-align: middle;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.recomendado{
+	color: #189f5c;
+}
+
+.conteudo { /*Sticky Footer 2/2*/
+  min-height: 98.1%;
+}
+
+.footer{
+	color: #dd4f43;
+	font:'arial';
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+
+#introduction{
+  max-width: 1330px;
+  margin: 0 auto;
+  color: white;
+}
+
+#redBox{
+  background-color: #dd4f43;
+  border-radius: 25px;
+  margin: 0 auto;
+  max-width: 968px;
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+#whiteBox{
+  background-color: white;
+  border-radius: 25px;
+  margin: 0 auto;
+  max-width: 715px;
+  margin-bottom: 20px;
+  margin-top: 16px;
+  color: #dd4f43;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+#yourResolutionFont{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+#collapseExample{
+  margin: 0 auto;
+  border-color: none;
+}
+
+#botao{
+  background-image: url(https://lh3.googleusercontent.com/TkpyHyZTZxAPYilxJBKaJWBdaBRF3_gahNonX8Ki7GAH91uFXdzri-jLoAPRZtYsjEMZA9SwL8yUgjEVU4CbJX_5NBOaNsiPuqXteyywPO-F5t9WYEAuECWX4JeKIbSCHF0AEi9SfOODRBBeXAzk9w6I-91DD4zGCvgMW_gs3o_3Da3-oiz9Ogyr0Vw1LbMWsPa5dl3crAFufae9XdviLZUFHxG_5KB3ofGhdcR_HKkOcxhoU_-nVsVM7hiiD7qx2-_cm2YBhaXnhsp_IKdfwQbU6smP6mX_njm8Bdp9GJT8nWzgHOb3AFkDsvULVVi75lRYCM7arE_CFaF7XzxNJOJEE3ZTblU2zIzyRYUMrT4rGK6peiesk5FqkdNq7XtAVdx5c7UGRyC2vVyJ6Cxc_FphiQ5Jeg6OV4P_O33JZIxz6KoLfrWcvn5n1_K8YMzJ7n8pFrYTdKJhSnS4f9BpD3eFmXUqWYMwz2D9acCZKeBP2wQp4ZSB3sPHyHf0B88CHqm-QoIAfH5KWwkKk5lDBcSThhP-5Euj7CV-1I3jpmLxDLGSr8FZTLxvSDW49oRyXnRcG1LvAD2xuIBoN0TZJoqAYS9ByzFTWoKHa_XYUTkecgZDMtQHrUwyaPoBkVTbAQ721LVW1AkSopkb6KbZhNqhPeqNYiUh5QI=s47-no);
+  background-repeat: no-repeat;
+  min-height: 50px;
+  vertical-align: top;
+  background-position: top;
+}
+
+#resultado{
+  display: none;
+}
+
+#run{
+  background-color: white;
+  border-radius: .25rem;
+  margin: 0 auto;
+  color: #dd4f43;
+  display:block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#run:focus {
+  outline:0;
+}
+
+#quadradinho{
+  background-color: #199f5d;
+  width: 12px;
+  height: 12px;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+#legenda{
+	margin-top: 6px;
+	color: #199f5d;
+	display: flex;
+  justify-content: center;
+  font-family: 'arial';
+  font-size: 18px;
+  
+}
+
+#ajuda a{
+	font-family: 'Wendy One', sans-serif;
+	font-size: 18px;
+	color: white;
+	width: 50%;
+	display: flex;
+  justify-content: center;
+   margin: 0 auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#ajuda a:hover{
+  background-color: white;
+  border-radius: .25rem;
+  color: #dd4f43;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  text-align: center;
+}

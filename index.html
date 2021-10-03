@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Proportional Resolution Calculator</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="conteudo">
+
+	<div class="topo">
+		<div align="center" class="d-flex" id="introduction">
+			<div class="col-sm-6">
+				<h5>"Add custom resolutions. You must use<br> proportional resolutions for sharper image."</h5>
+			</div>
+			<div class="col-sm-6">
+				<h5>"You can do it using<br>
+				the calculator bellow:"</h5>
+			</div>
+		</div>
+	</div>
+
+	<div class="Calculadora">
+		<h1 class="título">Proportional Resolution Calculator</h1>
+		<div class="row">
+			<div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 col-11" id="redBox">
+				<div class="formulario">
+					<div id="yourResolutionFont">
+						<p>Your resolution X: <input class="form-control" id="inputX" oninput="checkNumberFieldLength(this)" onkeypress="return isNumberKey(event)" placeholder="3440" type="number" value=""></p>
+						<p>Your resolution Y: <input class="form-control" id="inputY" oninput="checkNumberFieldLength(this)" onkeypress="return isNumberKey(event)" placeholder="1440" type="number" value=""></p>
+					</div>
+				</div><button id="run" onclick="run()">Run</button>
+				<div class="row" id="resultado">
+					<div class="col-xl-9 col-sm-9" id="whiteBox">
+						<table id="resposta"></table>
+						<div id="legenda">
+							<span id="quadradinho"></span>Standard Resolutions
+						</div>
+					</div>
+					<div id="ajuda">
+						<a href="https://www.youtube.com/watch?v=OJ8oHfZzUyA">How to add custom resolution</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+  <div class="footer">
+	<footer>
+		Created by Marcelo Moreira
+	</footer>
+  </div>
+  <div id="Links&Scripts">
+	<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"><!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js">
+	</script>
+	<script src="js/script.js">
+	</script>
+  </div>
+</body>
+</html>
